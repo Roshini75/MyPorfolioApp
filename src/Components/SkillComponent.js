@@ -24,7 +24,7 @@ class SkillComponent extends React.Component {
                     <i data-aos="rotate" className="ion-social-buffer-outline icon-big"></i>
                     <div data-aos="opaque" class="icon-text">
            <h3>Database</h3>
-           <p>MSSQL<br></br>My SQL<br></br>Mango DB</p>
+           <p>MSSQL<br></br>My SQL<br></br>MongoDB</p>
            </div>
                 </div> 
                 <div className="span-1-of-4">
