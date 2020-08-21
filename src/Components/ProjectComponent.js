@@ -222,49 +222,49 @@ class ProjectComponent extends React.Component{
            <div className="row">
            <div className ="image-grid" >
         <div class="box filterDiv js span-1-of-3">
-        <img data-aos="slide-from-inside" src={burger} class="grid-img" height="200"/>
+        <img src={burger} class="grid-img" height="200"/>
         <div class="text">
             <p>Burger Application</p>
             <button onClick={()=>this.handleLearnMore("burger")} className="btn btn-ghost grid-btn">Learn more</button>
         </div>
         </div>
         <div class="box filterDiv others span-1-of-3">
-        <img  data-aos="slide-from-inside"  src={cc} class="grid-img"  height="200"/>
+        <img  src={cc} class="grid-img"  height="200"/>
         <div class="text">
             <p>Cloud Computing</p>
             <button onClick={()=>this.handleLearnMore("cloud")} className="btn btn-ghost grid-btn">Learn more</button>
         </div>
         </div>
         <div class="box filterDiv mern react span-1-of-3">
-        <img  data-aos="slide-from-inside" src={land} class="grid-img"  height="200"/>
+        <img  src={land} class="grid-img"  height="200"/>
         <div class="text">
             <p>Land Registration</p>
             <button  onClick={()=>this.handleLearnMore("land")} className="btn btn-ghost grid-btn">Learn more</button>
         </div>
         </div>
         <div class="box filterDiv mern react span-1-of-3 ">
-        <img  data-aos="slide-from-inside" src={portfolio} class="grid-img"  height="200"/>
+        <img  src={portfolio} class="grid-img"  height="200"/>
         <div class="text">
             <p>Portfolio Website</p>
             <button  onClick={()=>this.handleLearnMore("portfolio")}  className="btn btn-ghost grid-btn">Learn more</button>
         </div>
         </div>
         <div class="box filterDiv others span-1-of-3">
-        <img  data-aos="slide-from-inside" src={file} class="grid-img"  height="200"/>
+        <img  src={file} class="grid-img"  height="200"/>
         <div class="text">
             <p>File Management System</p>
             <button   onClick={()=>this.handleLearnMore("file")}  className="btn btn-ghost grid-btn">Learn more</button>
         </div>
         </div>
         <div class="box filterDiv others span-1-of-3">
-        <img  data-aos="slide-from-inside" src={twitter} class="grid-img"  height="200"/>
+        <img src={twitter} class="grid-img"  height="200"/>
         <div class="text">
             <p>Twitter Sentimental Analysis</p>
             <button   onClick={()=>this.handleLearnMore("twitter")}  className="btn btn-ghost grid-btn">Learn more</button>
         </div>
         </div>
         <div class="box filterDiv react span-1-of-3">
-        <img  data-aos="slide-from-inside" src={weather} class="grid-img"  height="200"/>
+        <img  src={weather} class="grid-img"  height="200"/>
         <div class="text">
             <p>Weather Application</p>
             <button   onClick={()=>this.handleLearnMore("weather")}  className="btn btn-ghost grid-btn">Learn more</button>
